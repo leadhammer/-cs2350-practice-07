@@ -1,3 +1,5 @@
+@import url("~bootstrap/dist/css/bootstrap.css");
+
 @import url('~normalize.css/normalize.css');
 
 * {
@@ -5,3 +7,21 @@
 }
 
 /* TODO */
+body{
+  text-align: center;
+  padding: 5% 20% 0 20%;
+}
+#name-fld{
+  margin-bottom: 10px;
+}
+.box{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
